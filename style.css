@@ -1,0 +1,222 @@
+/* html elements */
+
+h2 {
+    margin-top: 3rem;
+    margin: 3rem;
+    font-size: 24px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: azure;
+    background-color: #4d8ac8;
+}
+
+input {
+    border: 0;
+}
+
+
+/* ids */
+
+
+/* classes elements */
+
+.buttons {
+    padding: 25px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+
+/* grid areas */
+
+.title {
+    grid-area: title;
+}
+
+.result {
+    grid-area: result;
+}
+
+.added-row-1 {
+    grid-area: log;
+}
+
+.added-row-2 {
+    grid-area: sin;
+}
+
+.added-row-3 {
+    grid-area: cos;
+}
+
+.added-row-4 {
+    grid-area: tangent;
+}
+
+.added-row-5 {
+    grid-area: off;
+}
+
+.first-row-1 {
+    grid-area: open;
+}
+
+.first-row-2 {
+    grid-area: close;
+}
+
+.first-row-3 {
+    grid-area: ans;
+}
+
+.first-row-4 {
+    grid-area: del;
+}
+
+.first-row-5 {
+    grid-area: clear;
+}
+
+.second-row-1 {
+    grid-area: seven;
+}
+
+.second-row-2 {
+    grid-area: eight;
+}
+
+.second-row-3 {
+    grid-area: nine;
+}
+
+.second-row-4 {
+    grid-area: power;
+}
+
+.third-row-1 {
+    grid-area: four;
+}
+
+.third-row-2 {
+    grid-area: five;
+}
+
+.third-row-3 {
+    grid-area: six;
+}
+
+.third-row-4 {
+    grid-area: multiply;
+}
+
+.third-row-5 {
+    grid-area: divide;
+}
+
+.fourth-row-1 {
+    grid-area: one;
+}
+
+.fourth-row-2 {
+    grid-area: two;
+}
+
+.fourth-row-3 {
+    grid-area: three;
+}
+
+.fourth-row-4 {
+    grid-area: add;
+}
+
+.fourth-row-5 {
+    grid-area: subtract;
+}
+
+.fifth-row-1 {
+    grid-area: point;
+}
+
+.fifth-row-2 {
+    grid-area: zero;
+}
+
+.fifth-row-3 {
+    grid-area: enter;
+}
+
+.calculator-container {
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ebf5fe;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    padding: 20px;
+    gap: 10px;
+    height: 900px;
+    width: 600px;
+    display: grid;
+    grid-template-areas: 'title title title title title' 'result result result result result' 'log sin cos tangent off' 'open close ans del clear' 'seven eight nine power power' 'four five six multiply divide' 'one two three add subtract' 'point zero enter enter enter'
+}
+
+.result {
+    padding: 20px;
+    text-align: right;
+    height: 200px;
+    width: 560px;
+    border-radius: 20px;
+    background-color: #cce5fd;
+    color: #332969;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.special-button-1 {
+    width: 220px;
+}
+
+.special-button-2 {
+    width: 334px;
+}
+
+.light-blue {
+    background-color: #4d8ac8;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.light-violet {
+    background-color: #cce5fd;
+    color: #1e4164;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.dark-violet {
+    background-color: #a2d0fa;
+    color: #518dca;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.upper-buttons {
+    padding: 15px;
+    height: 70px;
+}
+
+.title {
+    color: #1e4164;
+    font-size: 24px;
+}
+
+.antique {
+    text-align: center;
+    margin-bottom: 5rem;
+}
